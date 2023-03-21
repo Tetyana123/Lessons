@@ -77,3 +77,19 @@ const pizza = {
     B(2);
   }
   A(1); 
+
+
+  function updateBrand(obj) {
+    obj.brand = "Toyota";
+    obj = null;
+  }
+  
+  const car = {
+    brand: "Honda",
+    model: "Accord",
+    year: 1998,
+  };
+  
+  console.log(car.brand); 
+  updateBrand(car);
+  console.log(car.brand); 
