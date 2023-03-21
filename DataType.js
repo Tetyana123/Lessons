@@ -42,3 +42,13 @@ const pizza = {
   };
   const x = square(5)
   console.log(x);
+
+  function foo(i) {
+    if (i < 0) {
+      return;
+    }
+    console.log(`begin: ${i}`);
+    foo(i - 1);
+    console.log(`end: ${i}`);
+  }
+  foo(3);
