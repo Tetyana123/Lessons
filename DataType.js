@@ -44,6 +44,12 @@ const pizza = {
   } while (i < 5);
 
   
+  const five = 5;
+  const ten = 10;
+  console.log(
+    "Fifteen is " + (five + ten) + " and not " + (2 * five + ten) + ".",
+  );
+
   const square = function (number) {
     return number * number;
   };
