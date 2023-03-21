@@ -36,6 +36,13 @@ const pizza = {
   console.log(pizza);
   console.log(pizzas);
 
+
+  let i = 0;
+  do {
+    i += 1;
+    console.log(i);
+  } while (i < 5);
+
   
   const square = function (number) {
     return number * number;
@@ -53,7 +60,7 @@ const pizza = {
   }
   foo(3);
 
-  
+
   function A(x) {
     function B(y) {
       function C(z) {
