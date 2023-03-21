@@ -37,4 +37,8 @@ const pizza = {
   console.log(pizzas);
 
   
-  
+  const square = function (number) {
+    return number * number;
+  };
+  const x = square(5)
+  console.log(x);
